@@ -328,15 +328,15 @@ a {
 }
 /**Popular**/
 .popular__container {
-  grid-template-columns: 1fr;
+  grid-template-columns: 100%;
   row-gap: 2rem;
   padding-bottom: 2rem;
-  text-align: center;
 }
 .popular__data .section__title {
   margin-bottom: 2rem;
 }
 .popular__description {
+  text-align: center;
   margin-bottom: 2rem;
 }
 .popular__swiper {
@@ -350,14 +350,16 @@ a {
   top: -1rem;
   margin-inline: auto;
 }
-
+.popular__card,
+.popular__img {
+  width: 240px;
+}
 .popular__img.two {
   width: 250px;
 }
 .popular__img {
   transform: scale(0.8) rotate(-90deg);
   transition: transform 0.4s;
-  width: 240px;
 }
 
 .popular__title {
@@ -373,7 +375,6 @@ a {
 .swiper {
   overflow: visible;
   margin-inline: initial;
-  padding: 0 1rem;
 }
 :is(.swiper-slide-active, .swiper-slide-duplicate-active) .popular__img {
   transform: scale(1) rotate(0);
