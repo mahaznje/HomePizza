@@ -327,6 +327,7 @@ a {
   filter: var(--shadow--small--img);
 }
 /**Popular**/
+
 .popular__container {
   grid-template-columns: 100%;
   row-gap: 2rem;
@@ -360,6 +361,8 @@ a {
 .popular__img {
   transform: scale(0.8) rotate(-90deg);
   transition: transform 0.4s;
+  display: flex;
+  justify-self: center;
 }
 
 .popular__title {
