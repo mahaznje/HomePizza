@@ -70,7 +70,6 @@
 }
 .swiper-backface-hidden .swiper-slide {
   transform: translateZ(0);
-
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
