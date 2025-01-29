@@ -652,6 +652,10 @@ img {
 
 /***Small screen***/
 @media screen and (max-width: 480px) {
+  .contact {
+    padding: 0.5rem;
+  }
+
   .container {
     margin-inline: 1rem;
   }
@@ -659,6 +663,9 @@ img {
   .products__container {
     flex-direction: column;
     justify-content: center;
+  }
+  .products__card {
+    margin: 2rem;
   }
   .footer__form {
     background-color: transparent;

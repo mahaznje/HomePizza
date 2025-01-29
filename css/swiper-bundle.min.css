@@ -58,11 +58,7 @@
   transition-property: transform;
 }
 .swiper-slide-invisible-blank {
-<<<<<<< HEAD
-  visibility: hidden;
-=======
   visibility: visible;
->>>>>>> dbb15c391263f4fa82e4dcdd0243da471004d2f5
 }
 .swiper-autoheight,
 .swiper-autoheight .swiper-slide {
@@ -74,13 +70,9 @@
 }
 .swiper-backface-hidden .swiper-slide {
   transform: translateZ(0);
-<<<<<<< HEAD
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-=======
+
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
->>>>>>> dbb15c391263f4fa82e4dcdd0243da471004d2f5
 }
 .swiper-3d,
 .swiper-3d.swiper-css-mode .swiper-wrapper {

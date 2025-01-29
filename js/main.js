@@ -41,11 +41,6 @@ const swiperPopular = new Swiper('.popular__swiper', {
   slidesPerView: 1,
   centeredSlides: true,
   initialSlide: 1,
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
-    },
-  },
 })
 
 /// scroll show
