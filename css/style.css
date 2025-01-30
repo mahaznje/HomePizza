@@ -94,7 +94,6 @@ a {
 
 /**** reusable css classes ****/
 .container {
-  max-width: 1120px;
   margin-inline: 1.5rem;
 }
 .grid {
@@ -259,7 +258,7 @@ a {
   position: absolute;
   width: 450px;
   bottom: 3.5rem;
-  right: 2.5rem;
+  right: 2.2rem;
 }
 .home__leaf-1 {
   top: 1rem;
@@ -647,7 +646,7 @@ a {
   }
 
   .container {
-    margin-inline: 1rem;
+    margin-inline: 2rem;
   }
 
   .products__container {
@@ -678,6 +677,9 @@ a {
   .recipe__container {
     grid-template-columns: 1fr;
   }
+  .recepie__list {
+    margin: 2rem;
+  }
   .button {
     padding: 10px;
   }
@@ -687,8 +689,14 @@ a {
   }
   .home__images {
     margin-top: 0rem;
+    margin: 2rem;
   }
-
+  .home__pizza {
+    width: 470px;
+  }
+  .home__board {
+    width: 400px;
+  }
   .home__ingredient {
     width: 40px;
   }
@@ -714,7 +722,7 @@ a {
   .products__container,
   .popular__container,
   .recipe__container {
-    grid-template-columns: 600px;
+    grid-template-columns: 400px;
     justify-content: center;
   }
   .contact__container {
