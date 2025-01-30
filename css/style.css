@@ -352,16 +352,15 @@ a {
 .popular__dish {
   position: absolute;
   width: 300px;
-  margin-inline: auto;
 }
 
 .popular__img {
   transform: scale(0.8) rotate(-90deg);
+  display: grid;
+  grid-template: row;
   transition: transform 0.4s;
   width: 250px;
-  margin-top: 1rem;
-
-  display: flex;
+  margin-top: 2rem;
   justify-self: center;
 }
 .popular__title {
