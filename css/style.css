@@ -342,7 +342,6 @@ a {
 .popular__swiper {
   position: relative;
   display: flex;
-
   justify-content: center;
 }
 .popular__swiper {
@@ -354,6 +353,7 @@ a {
   width: 300px;
 }
 .popular__card img {
+  position: relative;
   display: flex;
   justify-self: center !important;
   align-self: center;
