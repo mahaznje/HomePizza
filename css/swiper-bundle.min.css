@@ -20,10 +20,10 @@
   --swiper-theme-color: #007aff;
 }
 .swiper {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  overflow: visible;
+  overflow: hidden;
   list-style: none;
   padding: 0;
   z-index: 1;
@@ -58,7 +58,7 @@
   transition-property: transform;
 }
 .swiper-slide-invisible-blank {
-  visibility: visible;
+  visibility: hidden;
 }
 .swiper-autoheight,
 .swiper-autoheight .swiper-slide {
@@ -70,8 +70,8 @@
 }
 .swiper-backface-hidden .swiper-slide {
   transform: translateZ(0);
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .swiper-3d,
 .swiper-3d.swiper-css-mode .swiper-wrapper {

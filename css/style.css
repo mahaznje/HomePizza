@@ -334,7 +334,7 @@ a {
   padding-bottom: 2rem;
 }
 .popular__data .section__title {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 .popular__description {
   text-align: center;
@@ -342,50 +342,50 @@ a {
 }
 .popular__swiper {
   position: relative;
+  display: flex;
+
+  justify-content: center;
 }
+.popular__swiper {
+  margin-top: 2rem;
+}
+
 .popular__dish {
-  width: 280px;
-  filter: var(--shadow--small--img);
   position: absolute;
-  inset: 0;
-  top: -1rem;
+  width: 300px;
   margin-inline: auto;
 }
-.popular__card,
-.popular__img {
-  width: 240px;
-}
-.popular__img.two {
-  width: 250px;
-}
+
 .popular__img {
   transform: scale(0.8) rotate(-90deg);
   transition: transform 0.4s;
+  width: 250px;
+  margin-top: 1rem;
+
   display: flex;
   justify-self: center;
 }
-
 .popular__title {
   font-size: var(--h3--font-size);
   color: var(--first--color);
-  margin-top: 3rem;
   text-align: center;
+  margin-top: 4rem;
   opacity: 0;
   transition: opacity 0.4s;
 }
-
 /**swiper**/
 .swiper {
   overflow: visible;
   margin-inline: initial;
 }
+
 :is(.swiper-slide-active, .swiper-slide-duplicate-active) .popular__img {
   transform: scale(1) rotate(0);
 }
+
 :is(.swiper-slide-active, .swiper-slide-duplicate-active) .popular__title {
   opacity: 1;
 }
-
 /** Recipe***/
 .recipe {
   background-color: var(--container--color);
@@ -714,7 +714,7 @@ a {
   .products__container,
   .popular__container,
   .recipe__container {
-    grid-template-columns: 400px;
+    grid-template-columns: 600px;
     justify-content: center;
   }
   .contact__container {
@@ -876,38 +876,31 @@ a {
   .about__img {
     order: -1;
   }
-  .popular {
-    display: flex;
-  }
 
   .popular__data {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
   .popular__container {
     width: 100%;
-    max-width: 1120px;
     margin: 0 auto;
-    grid-template-columns: 1fr;
-    row-gap: 2rem;
+    grid-template-columns: 100%;
+    row-gap: 1rem;
     padding-bottom: 2rem;
     text-align: center;
   }
+
   .popular__swiper {
-    max-width: 500px;
+    max-width: 1200px;
     display: flex;
     justify-self: center;
   }
   .popular__dish {
-    width: 355px;
-    top: -1.2rem;
+    width: 460px;
   }
 
   .popular__img {
-    width: 300px;
-  }
-
-  .popular__img.two {
-    width: 310px;
+    width: 400px;
+    margin-top: 2rem;
   }
   .recipe__container {
     grid-template-columns: 600px 400px;

@@ -35,12 +35,30 @@ const shadowHeader = () => {
 window.addEventListener('scroll', shadowHeader)
 
 //swiper
+// Swiper.js Configuration
 const swiperPopular = new Swiper('.popular__swiper', {
   loop: true,
   grabCursor: true,
-  slidesPerView: 1,
-  centeredSlides: true,
-  initialSlide: 1,
+  slidesPerView: 3,
+  centeredSlides: 'auto',
+  spaceBetween: 60,
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+
+      spaceBetween: 90,
+    },
+    768: {
+      // Tablettes
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1024: {
+      // Ordinateurs
+      slidesPerView: 3,
+      spaceBetween: 90,
+    },
+  },
 })
 
 /// scroll show
